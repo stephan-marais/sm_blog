@@ -1,0 +1,17 @@
+baseURL = 'http://stefmarais.com/'
+languageCode = 'en-us'
+title = 'SM Blogs'
+theme = "ananke"
+
+
+[params]
+  title = "Software Engineering"
+  
+  keyword = "cryptography"
+
+  featured_tags = true 
+  featured_condition_size = 2 # How many posts have to have a given tag to be featured (greater-than)
+  title_404 = "We couldn't find what you were looking for..."
+
+  [params.social]
+  rss           = true
